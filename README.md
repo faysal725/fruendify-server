@@ -64,47 +64,6 @@ yarn test
 
 ```
 
-## Environment Variables
-
-The environment variables can be found and modified in the `.env` file. They come with these default values:
-
-```bash
-#Server environment
-NODE_ENV=development
-#Port number
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/freundify
-
-#Db configuration
-DB_HOST=127.0.0.1
-DB_USER=user
-DB_PASS="password"
-DB_PORT=3306
-DB_NAME=db_name
-
-
-# JWT secret key
-JWT_SECRET=1234
-JWT_ADMIN_SECRET=5678
-# Number of minutes after which an access token expires
-JWT_ACCESS_EXPIRATION_MINUTES=4320
-# Number of days after which a refresh token expires
-JWT_REFRESH_EXPIRATION_DAYS=30
-
-#Log config
-LOG_FOLDER=logs/
-LOG_FILE=%DATE%-app-log.log
-LOG_LEVEL=error
-
-#Redis
-REDIS_HOST=redis-host
-REDIS_PORT=6379
-REDIS_USE_PASSWORD=no
-REDIS_PASSWORD=your-password
-
-
-```
-
 ## Project Structure
 
 ```
